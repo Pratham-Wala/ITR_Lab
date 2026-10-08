@@ -1,0 +1,9 @@
+name: itr_fk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24
+  - pip:
+      - mujoco>=3.0
